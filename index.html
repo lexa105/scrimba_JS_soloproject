@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h2>HOME</h2>
+            <div class="counter">
+                <h1 class="points" id="home-el">0</h1>
+            </div>
+            <div class="controls-home">
+                <button onclick="addPoint()">+1</button>
+                <button onclick="addTwoPoint()">+2</button>
+                <button onclick="addThreePoint()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h2>GUEST</h2>
+            <div class="counter">
+                <h1 class="points" id="guest-el">0</h1>
+            </div>
+            <div class="controls-guest">
+                <button onclick="addPointG()">+1</button>
+                <button onclick="addTwoPointG()">+2</button>
+                <button onclick="addThreePointG()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

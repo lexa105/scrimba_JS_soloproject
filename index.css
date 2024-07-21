@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+            font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    width: 155px;
+    height: 120px;
+    padding: 15px;
+    background-color: #080001;
+    
+}
+
+.points {
+    font-size: 50px;
+    font-family: 'CursedTimerUlil-Aznm';
+    color: #F94F6D;
+}
+
+
+.controls-home, .controls-guest {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    border: #9AABD8 solid 1px;
+    text-align: center;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin: 5px;
+    
+    font-family: 'CursedTimerUlil-Aznm';
+    font-size: 16px;
+    background: none;
+
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+button:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
